@@ -13,8 +13,9 @@ import ConfirmButton from './chapter_07/ConfirmButton';
 import LandingPage from './chapter_08/LandingPage';
 import Attendance from './chapter_09/AtttendanceBook';
 import SignUp from './chapter_10/SignUp';
-import Calculator from './chpater_11/Calc';
+import Calculator from './chapter_11/Calc';
 import ProfileCard from './chapter_12/ProfileCard';
+import ArrGuide from './chapter_13/ArrGuide';
 
 /*
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -72,7 +73,7 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <ProfileCard />
+    <ArrGuide />
   </React.StrictMode>,
   document.getElementById('root')
 );
