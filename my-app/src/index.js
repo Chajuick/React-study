@@ -14,6 +14,7 @@ import LandingPage from './chapter_08/LandingPage';
 import Attendance from './chapter_09/AtttendanceBook';
 import SignUp from './chapter_10/SignUp';
 import Calculator from './chpater_11/Calc';
+import ProfileCard from './chapter_12/ProfileCard';
 
 /*
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -71,7 +72,7 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>,
   document.getElementById('root')
 );
