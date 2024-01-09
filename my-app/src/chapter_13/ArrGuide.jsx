@@ -12,6 +12,42 @@ const arrData = [
             return newArr;
         },
     },
+    {
+        title: "push(item)",
+        detail: "배열의 끝에 item을 추가합니다.",
+        result: () => {
+            const newArr = [...mainArr];
+            newArr.push("자두");
+            return newArr;
+        },
+    },
+    {
+        title: "push(item)",
+        detail: "배열의 끝에 item을 추가합니다.",
+        result: () => {
+            const newArr = [...mainArr];
+            newArr.push("자두");
+            return newArr;
+        },
+    },
+    {
+        title: "push(item)",
+        detail: "배열의 끝에 item을 추가합니다.",
+        result: () => {
+            const newArr = [...mainArr];
+            newArr.push("자두");
+            return newArr;
+        },
+    },
+    {
+        title: "push(item)",
+        detail: "배열의 끝에 item을 추가합니다.",
+        result: () => {
+            const newArr = [...mainArr];
+            newArr.push("자두");
+            return newArr;
+        },
+    },
 ]
 
 export default function ArrGuide() {
